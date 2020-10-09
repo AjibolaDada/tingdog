@@ -1,0 +1,189 @@
+#title {
+  background-color: #ff4c68;
+}
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+}
+
+.heading1-text {
+  font-size: 2.5rem;
+  line-height: 1.5;
+  color: white;
+  font-weight: 900;
+}
+
+.heading2-text{
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.heading3-text {
+  font-size: 1.2rem;
+}
+
+
+.container-fluid {
+  padding: 3% 15% 5%;
+}
+
+
+
+
+p {
+  color: #8f8f8f;
+}
+
+/* Navigation menu */
+.navbar {
+
+  padding: 0 0 3.5rem;
+}
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.0rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 300;
+  font-family: "Montserrat"
+}
+
+#title {
+  text-align: left;
+}
+/* Download Buttons */
+ .button-download {
+   margin: 5% 3% 5% 0;
+ }
+
+ /* Title Image */
+
+.title-img {
+  width: 14em;
+  transform: rotate(25deg);
+  position: absolute;
+  left: 6em;
+}
+
+
+/* Feature Section */
+
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box {
+ padding: 3%;
+}
+
+.icon {
+  padding-bottom: 1rem;
+  color: #ef8172;
+}
+
+.icon:hover {
+  color: #ff4c68;
+
+}
+
+/* Testimonials Section */
+
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 10px;
+}
+
+
+/* Press Section */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+
+}
+
+.press-img {
+  width: 15%;
+
+}
+
+.carousel-item {
+  padding: 7% 15%;
+
+}
+
+/* pricing */
+
+#pricing {
+  padding: 5% 10%;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+
+
+/* cta section */
+ #cta {
+   background-color: #ff4c68;
+   padding: 7% 15%;
+
+ }
+
+
+ .text-section {
+   color: #fff;
+   font: "Montserrat-Black";
+   font-weight: bold;
+   font-size: 2.5rem;
+   line-height: 1.5;
+ }
+
+
+/* footer sectio */
+
+#footer {
+  padding: 5% 15%;
+}
+
+
+.footer-icons {
+  padding: 2% 0.5%
+}
+
+
+
+@media (max-width:990px){
+
+  #title {
+    text-align: center;
+  }
+
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
+
+}
